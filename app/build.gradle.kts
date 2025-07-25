@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     id("kotlin-kapt")
-    id("com.google.dagger.hilt.android")
+    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -70,16 +70,36 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
     // Coil (Image loading)
-    implementation("io.coil-kt:coil-compose:2.7.0")
+    implementation(libs.coil.compose)
 
-    // Hilt (Dependency Injection)
-    implementation("com.google.dagger:hilt-android:2.51.1") // Latest Hilt version
+    // Hilt
+    implementation("com.google.dagger:hilt-android:2.51.1")
     kapt("com.google.dagger:hilt-android-compiler:2.51.1")
-    kapt("androidx.hilt:hilt-compiler:1.2.0")
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0") // For Hilt with Navigation Compose
+
+    // Hilt Navigation for Compose
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    kapt("androidx.hilt:hilt-compiler:1.2.0") // Optional but helps with @ViewModelInject / HiltViewModel
 
     // Paging 3 (for pagination)
     implementation("androidx.paging:paging-runtime-ktx:3.3.0")
     implementation("androidx.paging:paging-compose:3.3.0")
+
+
+    // JUnit
+    testImplementation("junit:junit:4.13.2")
+
+// MockK for mocking
+    testImplementation("io.mockk:mockk:1.13.9")
+
+// Coroutine test support
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+
+// Turbine for testing StateFlow/Flow
+    testImplementation("app.cash.turbine:turbine:1.1.0")
+
+
+
+// Coroutine testing
+    testImplementation(libs.turbine)
 
 }
