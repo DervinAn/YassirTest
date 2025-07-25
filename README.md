@@ -11,15 +11,15 @@ The application allows users to explore characters, filter them by **status** an
 ## 📱 Screenshots
 
 <p align="center">
- <img width="30%" height="2400" alt="Screenshot_20250725_180408" src="https://github.com/user-attachments/assets/6e4261bc-c9f5-4523-a79c-52c8658d78ca" />
-<img width="30%" height="2400" alt="Screenshot_20250725_180459" src="https://github.com/user-attachments/assets/a7d9f386-db7f-4d15-9c62-59577dff82a1" />
-<img width="30%" height="2400" alt="Screenshot_20250725_180518" src="https://github.com/user-attachments/assets/a30384db-c01a-49df-bdb1-a80bbf859dc7" />
+ <img width="30%" alt="Screenshot_20250725_180408" src="https://github.com/user-attachments/assets/6e4261bc-c9f5-4523-a79c-52c8658d78ca" />
+<img width="30%"  alt="Screenshot_20250725_180459" src="https://github.com/user-attachments/assets/a7d9f386-db7f-4d15-9c62-59577dff82a1" />
+<img width="30%"  alt="Screenshot_20250725_180518" src="https://github.com/user-attachments/assets/a30384db-c01a-49df-bdb1-a80bbf859dc7" />
 
 </p>
 
 <p align="center">
-<img width="45%" height="2400" alt="Screenshot_20250725_180534" src="https://github.com/user-attachments/assets/b0ad3727-9d74-423e-ad11-d70a0c6404e5" />
-<img width="45%" height="2400" alt="Screenshot_20250725_180541" src="https://github.com/user-attachments/assets/11d824fb-2ce5-4c7d-97ed-b97f2cfbcd4f" />
+<img width="45%" alt="Screenshot_20250725_180534" src="https://github.com/user-attachments/assets/b0ad3727-9d74-423e-ad11-d70a0c6404e5" />
+<img width="45%" alt="Screenshot_20250725_180541" src="https://github.com/user-attachments/assets/11d824fb-2ce5-4c7d-97ed-b97f2cfbcd4f" />
 
 </p>
 ---
