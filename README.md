@@ -53,16 +53,16 @@ The application allows users to explore characters, filter them by **status** an
 
 com.example.yassirtest
 ├── data
-│ ├── remote (API, DTOs, Mappers)
-│ └── repository (CharacterRepositoryImpl)
+│   ├── remote (API, DTOs, Mappers)
+│   └── repository (CharacterRepositoryImpl)
 ├── domain
-│ ├── model (Character)
-│ ├── repository (CharacterRepository interface)
-│ └── usecase (GetCharactersUseCase)
+│   ├── model (Character)
+│   ├── repository (CharacterRepository interface)
+│   └── usecase (GetCharactersUseCase)
 ├── presentation
-│ ├── ui (Compose screens)
-│ ├── viewModel (CharacterViewModel + UI State)
-│ └── navigation (NavGraph)
+│   ├── ui (Compose screens)
+│   ├── viewModel (CharacterViewModel + UI State)
+│   └── navigation (NavGraph)
 ├── di (Hilt modules)
 └── util (Resource wrapper, safeApiCall)
 
