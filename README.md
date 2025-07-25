@@ -49,8 +49,11 @@ The application allows users to explore characters, filter them by **status** an
 | API          |[RickandMorty API](https://rickandmortyapi.com/)|
 -----------------------------------------------------------------
 
+---
+
 ## 📂 Project Structure
 
+```text
 com.example.yassirtest
 ├── data
 │   ├── remote (API, DTOs, Mappers)
