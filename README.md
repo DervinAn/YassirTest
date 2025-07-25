@@ -89,15 +89,17 @@ Sync Gradle and wait for dependencies to resolve
 Run the app on an emulator or device
 🧱 Architectural Decisions
 
-✅ Clean Architecture
-The project is structured in multiple layers:
+✅ **Clean Architecture**  
+The project is structured in multiple layers:  
+- `data`: Responsible for API interaction and DTO mapping  
+- `domain`: Contains business logic and use cases  
+- `presentation`: Handles UI state and rendering with Jetpack Compose  
 
-data: Responsible for API interaction and DTO mapping.
-domain: Contains business logic and use cases.
-presentation: Handles UI state and rendering with Jetpack Compose.
-✅ Separation of Concerns
-ViewModels only handle UI logic.
-UseCases execute business logic and data fetching.
-Repositories abstract data sources and allow for easier testing.
-✅ Modular & Testable
-By decoupling domain logic from Android framework, components are more testable and reusable.
+✅ **Separation of Concerns**  
+- `ViewModels` only handle UI logic  
+- `UseCases` execute business logic and data fetching  
+- `Repositories` abstract data sources and allow for easier testing  
+
+✅ **Modular & Testable**  
+By decoupling domain logic from the Android framework, components are more testable and reusable.
+
