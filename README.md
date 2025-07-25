@@ -1,5 +1,3 @@
-Absolutely! Below is a professional and clean README.md file tailored specifically for your Android Interview Test project based on Jetpack Compose, Hilt, Retrofit, and the Rick and Morty API.
-
 <a name="readme-top"></a>
 
 # 🧪 Yassir Android Interview Test – Rick and Morty Character Explorer
