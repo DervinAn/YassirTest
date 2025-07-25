@@ -68,9 +68,8 @@ com.example.yassirtest
 │   └── navigation (NavGraph)
 ├── di (Hilt modules)
 └── util (Resource wrapper, safeApiCall)
+```
 
-
----
 
 ## 🚀 Getting Started
 
