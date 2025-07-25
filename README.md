@@ -10,9 +10,16 @@ The application allows users to explore characters, filter them by **status** an
 
 ## 📱 Screenshots
 
-<!-- Add screenshots or replace placeholders -->
-<img src="screenshots/list_screen.png" width="45%"/> <img src="screenshots/detail_screen.png" width="45%"/>
+<p align="center">
+  <img src="screenshots/screen1.png" width="30%" />
+  <img src="screenshots/screen2.png" width="30%" />
+  <img src="screenshots/screen3.png" width="30%" />
+</p>
 
+<p align="center">
+  <img src="screenshots/screen4.png" width="45%" />
+  <img src="screenshots/screen5.png" width="45%" />
+</p>
 ---
 
 ## 📦 Features
